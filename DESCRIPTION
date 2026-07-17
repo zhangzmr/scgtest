@@ -1,0 +1,33 @@
+Package: scgtest
+Type: Package
+Title: Differential Expression Testing for Single-Cell RNA-Seq
+Version: 1.0.0
+Authors@R: person("Mengrui", "Zhang",
+                  email = "mrzhang@stanford.edu",
+                  role = c("aut", "cre"))
+Description: Tools for differential expression testing on single-cell and
+    pseudobulk RNA-seq data, including edgeR-based tests, optional RUV
+    correction, Wilcoxon pairwise tests, pathway enrichment with
+    clusterProfiler, and common visualization helpers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.0)
+Imports:
+    AnnotationDbi,
+    clusterProfiler,
+    dittoSeq,
+    edgeR,
+    EnhancedVolcano,
+    ggplot2,
+    limma,
+    org.Hs.eg.db,
+    RUVSeq,
+    scran,
+    scuttle,
+    SingleCellExperiment,
+    stats,
+    stringr,
+    SummarizedExperiment
+Config/roxygen2/version: 8.0.0
