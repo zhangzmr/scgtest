@@ -2,6 +2,12 @@
 
 R package for differential expression testing on single-cell and pseudobulk RNA-seq data: edgeR DE tests, optional RUV correction, Wilcoxon pairwise tests, pathway enrichment, and visualization helpers.
 
+## Citation
+
+If you use scgtest, please cite:
+
+Xiaohao Wu, Mengrui Zhang, Jae-Seung Moon, Eun Kyung Song, Joshua C. Abrams, Laura S. van Dam, Orr Sharpe, Marie Feser, Laurie Moss, Peggy P. Ho, Melanie H. Smith, Laura T. Donlin, Jane H. Buckner, Eddie A. James, Gary S. Firestein, Yuko Okamoto, Tobiaz V. Lanz, Eric Meffre, V. Michael Holers, Kevin D. Deane, William H. Robinson. Senescent Activated Naive B Cells Promote Anti-Citrullinated Antigen T Cell Responses and the Transition to Clinical Rheumatoid Arthritis. bioRxiv. 2025. doi:[10.1101/2025.10.14.682430](https://doi.org/10.1101/2025.10.14.682430).
+
 ## Installation
 
 ```r
