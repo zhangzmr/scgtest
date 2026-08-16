@@ -9,7 +9,7 @@ Description: Tools for differential expression testing on single-cell and
     pseudobulk RNA-seq data, including edgeR-based tests, optional RUV
     correction, Wilcoxon pairwise tests, pathway enrichment with
     clusterProfiler, and common visualization helpers.
-License: MIT + file LICENSE
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Depends:
